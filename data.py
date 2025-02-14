@@ -1,7 +1,8 @@
-def  fun(x):
-    x = x+10
+def  fun(x,y):
+    x = x+y
     return x
 
 num = int(input("enter the number :"))
-result=(fun(num))
+num1 = int(input("enter the number :"))
+result=(fun(num,num1))
 print(result)
